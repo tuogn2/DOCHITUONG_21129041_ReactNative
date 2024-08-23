@@ -2,6 +2,8 @@
 // calculated using the formula:
 // BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
 
+
+
 function caculatedBMI(weight, tall) {
     return weight / tall ** 2
 }
@@ -13,4 +15,5 @@ console.log("BMI OF MARK: " + markBMI)
 console.log("BMT OF JONH: " + jonhBMI)
 
 let markHigherBMI = (markBMI > jonhBMI) ? true : false
-console.log(markHigherBMI)
+markBMI ? console.log(`Mark's BMI(${markBMI}) is higher than John's (${jonhBMI})!`) :
+    console.log(`John's BMI (${jonhBMI}) is higher than Mark's! (${markBMI})`)
