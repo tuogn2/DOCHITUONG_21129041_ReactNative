@@ -12,7 +12,7 @@ import FourScreen from '../screen/FourScreen';
 
 export default function HomeScreen() {
   return (
-      <FourScreen/>
+      <SecondScreen/>
   );
 }
 
